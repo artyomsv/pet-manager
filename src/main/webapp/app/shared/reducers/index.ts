@@ -1,9 +1,10 @@
-import { ReducersMapObject, combineReducers } from '@reduxjs/toolkit';
-import { loadingBarReducer as loadingBar } from 'react-redux-loading-bar';
+import {ReducersMapObject} from '@reduxjs/toolkit';
+import {loadingBarReducer as loadingBar} from 'react-redux-loading-bar';
 
 import authentication from './authentication';
 import applicationProfile from './application-profile';
 
+import home from 'app/modules/home/home.reducer';
 import administration from 'app/modules/administration/administration.reducer';
 import userManagement from 'app/modules/administration/user-management/user-management.reducer';
 import register from 'app/modules/account/register/register.reducer';
@@ -18,6 +19,7 @@ import entitiesReducers from 'app/entities/reducers';
 const rootReducer: ReducersMapObject = {
   authentication,
   applicationProfile,
+  home,
   administration,
   userManagement,
   register,
