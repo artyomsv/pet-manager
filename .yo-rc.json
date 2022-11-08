@@ -2,7 +2,7 @@
   "generator-jhipster": {
     "applicationType": "monolith",
     "authenticationType": "session",
-    "baseName": "catfeedmanager",
+    "baseName": "pet-manager",
     "blueprints": [],
     "buildTool": "maven",
     "cacheProvider": "no",
@@ -28,7 +28,7 @@
     "microfrontends": [],
     "nativeLanguage": "ru",
     "otherModules": [],
-    "packageName": "com.stukans.cfm",
+    "packageName": "com.stukans.pm",
     "pages": [],
     "prodDatabaseType": "mongodb",
     "reactive": false,

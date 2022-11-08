@@ -6,11 +6,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.stukans.cfm</groupId>
-    <artifactId>catfeedmanager</artifactId>
+    <artifactId>pet-manager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Catfeedmanager</name>
-    <description>Description for catfeedmanager</description>
+    <description>Description for pet-manager</description>
 
     <repositories>
         <!-- jhipster-needle-maven-repository -->
@@ -34,7 +34,7 @@
         <maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
-        <start-class>com.stukans.cfm.CatfeedmanagerApp</start-class>
+        <start-class>com.stukans.pm.PetManagerApp</start-class>
         <argLine>-Djava.security.egd=file:/dev/./urandom -Xmx1G</argLine>
         <m2e.apt.activation>jdt_apt</m2e.apt.activation>
         <run.addResources>false</run.addResources>
@@ -526,7 +526,7 @@
                             </platforms>
                         </from>
                         <to>
-                            <image>catfeedmanager:latest</image>
+                            <image>pet-manager:latest</image>
                         </to>
                         <container>
                             <entrypoint>

@@ -1,7 +1,7 @@
 # This configuration is intended for development purpose, it's **your** responsibility to harden it for production
 version: '3.8'
 services:
-  catfeedmanager-mongodb:
+  pet-manager-mongodb:
     image: mongo:4.4.15
     environment:
       - TZ=Europe/Zurich
@@ -10,4 +10,4 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ~/volumes/jhipster/catfeedmanager/mongodb/:/data/db/
+      - ~/volumes/jhipster/pet-manager/mongodb/:/data/db/

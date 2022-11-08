@@ -1,8 +1,8 @@
 {
-  "name": "catfeedmanager",
+  "name": "pet-manager",
   "version": "0.0.1-SNAPSHOT",
   "private": true,
-  "description": "Description for catfeedmanager",
+  "description": "Description for pet-manager",
   "license": "UNLICENSED",
   "scripts": {
     "app:start": "./mvnw",
